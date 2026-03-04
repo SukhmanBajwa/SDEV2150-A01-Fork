@@ -16,11 +16,11 @@ export default function PageLayout({ header, children }) { //({ header, left, mi
       </main> */}
     </div>
   );
-}
+} 
 
 // Sample solution for the student layout variant exercise
-/*
-export default function PageLayout({ header, layout = 'standard', children }) {
+
+/*export default function PageLayout({ header, layout = 'standard', children }) {
   const layoutClasses = {
     standard:
       'grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6',
